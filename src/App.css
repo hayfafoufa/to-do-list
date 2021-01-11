@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.titleStyle a{
+  text-decoration: none !important;
+  color: white !important;
+  padding-right: 20px;
+}
+
+.conxMaintContainer {
+  width: 99vw;
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conxContainer {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px #eee;
+  width: 350px;
+  padding: 10px 15px 20px 15px;
+}
+
+.conxContainer h3 {
+  letter-spacing: 2px;
+}
+
+.conxContainer > div {
+  padding: 8px 0;
+}
+
+.errorAcnt {
+  font-size: 11px;
+  text-align: initial;
+  color: red;
+}
+
+.newTaskContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newTaskContainer > div {
+  margin: 0 15px;
+}
+
+.homeContainer {
+  height: 400px;
+  width: 400px;
+}
